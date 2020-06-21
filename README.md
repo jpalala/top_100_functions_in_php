@@ -1,4 +1,6 @@
-I was inspired to create this one-stop Top 100  PHP functions because a lot of people might choose PHP as their first programming language due to the popularity of it. Huge thanks to exakat.com who shared them here https://www.exakat.io/top-100-php-functions/. 
+I was inspired to create this one-stop Top 100  PHP functions for people who are starting with PHP and want to know most of the language features quickly. 
+
+Huge thanks to exakat.com who shared about the top 100 used functions in a post -  https://www.exakat.io/top-100-php-functions/. 
 
 Note: I haven't finished the rest.. so if you would care to help, just PR away!
 
@@ -26,7 +28,7 @@ substr ( string $string , int $start [, int $length ] ) : string
 in_array ( mixed $needle , array $haystack [, bool $strict = FALSE ] ) : bool
 ```
 
-5. https://www.php.net/explode - Split a string by a string
+5. [explode](https://www.php.net/explode) - Split a string by a string
 
 ```
 explode ( string $delimiter , string $string [, int $limit = PHP_INT_MAX ] ) : array
@@ -37,19 +39,20 @@ explode ( string $delimiter , string $string [, int $limit = PHP_INT_MAX ] ) : a
 ```
 str_replace ( mixed $search , mixed $replace , mixed $subject [, int &$count ] ) : mixed
 ```
-7. https://www.php.net/implode - Join array elements with a string
+
+7. [implode](https://www.php.net/implode) - Join array elements with a string
 
 ```
 implode ( string $glue , array $pieces ) : string
 ```
 
-8. https://www.php.net/strlen -  Get string length
+8. [strlen](https://www.php.net/strlen) -  Get string length
 
 ```
 strlen ( string $string ) : int
 ```
 
-9. https://www.php.net/array_merge - Merge one or more arrays
+9. [array_merge](https://www.php.net/array_merge_ - Merge one or more arrays
 
 
 10. https://www.php.net/strpos - Find the position of the first occurrence of a substring in a string
@@ -58,7 +61,7 @@ strlen ( string $string ) : int
 strpos ( string $haystack , mixed $needle [, int $offset = 0 ] ) : int
 ```
 
-11. https://www.php.net/preg_match - Perform a regular expression match
+11. [preg_match](https://www.php.net/preg_match) - Perform a regular expression match
 ```
 preg_match ( string $pattern , string $subject [, array &$matches [, int $flags = 0 [, int $offset = 0 ]]] ) : int
 ```
@@ -83,7 +86,7 @@ preg_match ( string $pattern , string $subject [, array &$matches [, int $flags 
 29.	[date](https://www.php.net/date)	- Format a local time/date
 30.	[is_null](https://www.php.net/is_null)	- Finds whether a variable is NULL
 31.	[is_numeric](https://www.php.net/is_numeric)	- Finds whether a variable is a number or a numeric string
-32.	[array_shift] (https://www.php.net/array_shift) - Shift an element off the beginning of array
+32.	[array_shift](https://www.php.net/array_shift) - Shift an element off the beginning of array
 33.	[defined](https://www.php.net/defined)	- Checks whether a given named constant exists
 34.	[is_dir](https://www.php.net/is_dir) - Tells whether the filename is a directory
 35.	[json_decode](https://www.php.net/json_decode)	- Returns the JSON representation of a value
@@ -94,7 +97,7 @@ preg_match ( string $pattern , string $subject [, array &$matches [, int $flags 
 40.	[method_exists](https://www.php.net/method_exists)	
 41.	[file_put_contents](https://www.php.net/file_put_contents)
 42.	[rtrim](https://www.php.net/rtrim)
-43.	[array_pop]	(https://www.php.net/array_pop)
+43.	[array_pop](https://www.php.net/array_pop)
 44.	[unlink](https://www.php.net/unlink)	
 45.	[basename](https://www.php.net/basename) - Returns trailing name component of path
 46.	[realpath](https://www.php.net/realpath)	
